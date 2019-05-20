@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  I4U
+//
+//  Created by 程辉 on 2019/4/15.
+//  Copyright © 2019 CY. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define MAS_SHORTHAND_GLOBALS
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//类库头文件导入
+#import <Masonry.h>
+#import <ReactiveObjC.h>
+#import <AFNetworking.h>
+
+
+//
+#import "I4U_AppConfig.h"
+#import "I4U_PublicMacro.h"
+#import "UIView+ESTap.h"
+#import "UITabBar+Badge.h"
+#import "RTConstants.h"
+#import "UIImage+Extension.h"
+#import "YFTabBerViewController.h"
+#import "YFTabBarControllerConfig.h"
+#import "YFTabBar.h"
+#import "YFPlusButtonSubclass.h"
+#import "YFPlusButton.h"
+#import "UIViewController+YFTabBarControllerCategory.h"
+#import "UIView+YFTabBarControllerCategory.h"
+#import "UITabBarItem+YFTabBarControllerCategory.h"
+#import "UIControl+YFTabBarControllerCategory.h"
+
+
+#endif /* PrefixHeader_pch */
