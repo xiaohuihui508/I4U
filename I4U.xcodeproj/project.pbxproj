@@ -29,6 +29,7 @@
 		6610169222645DA400D00EB4 /* YFTabBerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610168722645DA400D00EB4 /* YFTabBerViewController.m */; };
 		66DB93ED226572FF00F966DA /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB93EC226572FF00F966DA /* UITabBar+Badge.m */; };
 		66DB93F022657D9A00F966DA /* HomeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DB93EF22657D9A00F966DA /* HomeDetailVC.m */; };
+		66E3F7F222927293003BC5CF /* KeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E3F7F022927293003BC5CF /* KeychainTool.m */; };
 		66FC49522264690800DF7327 /* MessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FC49512264690800DF7327 /* MessageVC.m */; };
 		66FC49552264691500DF7327 /* ScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FC49532264691500DF7327 /* ScanVC.m */; };
 		66FC49582264692300DF7327 /* WorkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FC49572264692300DF7327 /* WorkVC.m */; };
@@ -101,6 +102,8 @@
 		66DB93EC226572FF00F966DA /* UITabBar+Badge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
 		66DB93EE22657D9A00F966DA /* HomeDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeDetailVC.h; sourceTree = "<group>"; };
 		66DB93EF22657D9A00F966DA /* HomeDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeDetailVC.m; sourceTree = "<group>"; };
+		66E3F7F022927293003BC5CF /* KeychainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainTool.m; sourceTree = "<group>"; };
+		66E3F7F122927293003BC5CF /* KeychainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainTool.h; sourceTree = "<group>"; };
 		66F9470B2266EBC600D01F88 /* I4U_AppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = I4U_AppConfig.h; sourceTree = "<group>"; };
 		66F9470C2266EC4300D01F88 /* I4U_PublicMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = I4U_PublicMacro.h; sourceTree = "<group>"; };
 		66FC49502264690800DF7327 /* MessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageVC.h; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 		6610165822644C3700D00EB4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				66E3F7F122927293003BC5CF /* KeychainTool.h */,
+				66E3F7F022927293003BC5CF /* KeychainTool.m */,
 				6610166622644F3100D00EB4 /* UIView+ESTap.h */,
 				6610166722644F3100D00EB4 /* UIView+ESTap.m */,
 				6610167422645D8C00D00EB4 /* UIImage+Extension.h */,
@@ -627,6 +632,7 @@
 				66FC49552264691500DF7327 /* ScanVC.m in Sources */,
 				6610168B22645DA400D00EB4 /* YFPlusButtonSubclass.m in Sources */,
 				6610169122645DA400D00EB4 /* UIView+YFTabBarControllerCategory.m in Sources */,
+				66E3F7F222927293003BC5CF /* KeychainTool.m in Sources */,
 				66FC49582264692300DF7327 /* WorkVC.m in Sources */,
 				66FC495B2264693000DF7327 /* MineVC.m in Sources */,
 				66DB93F022657D9A00F966DA /* HomeDetailVC.m in Sources */,

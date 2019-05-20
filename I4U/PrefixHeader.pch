@@ -36,5 +36,7 @@
 #import "UITabBarItem+YFTabBarControllerCategory.h"
 #import "UIControl+YFTabBarControllerCategory.h"
 
+#import "KeychainTool.h"
+
 
 #endif /* PrefixHeader_pch */
